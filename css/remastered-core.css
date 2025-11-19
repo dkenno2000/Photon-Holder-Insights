@@ -1,0 +1,217 @@
+/*********** TOP 100 HOLDERS CHARTS **********/
+
+.holders-popup1 {
+  width: 325px;
+  height: 385px;
+  position: absolute;
+  z-index: 999;
+  right: 85px;
+  margin-top: -398px !important;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  padding-top: 18px;
+  backdrop-filter: blur(6px);
+  background: rgb(25 25 34 / 60%);
+  box-shadow: rgba(40, 40, 50, 0.66) 0px 0px 26px 4px;
+}
+
+.holders-popup2 {
+  width: 325px;
+  height: 385px;
+  position: absolute;
+  z-index: 999;
+  right: 47px;
+  margin-top: -398px !important;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  padding-top: 18px;
+  backdrop-filter: blur(6px);
+  background: rgb(25 25 34 / 60%);
+  box-shadow: rgba(40, 40, 50, 0.66) 0px 0px 26px 4px;
+}
+
+#holders-popup-container1,
+#holders-popup-container2 {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+#holders-popup-container1.show,
+#holders-popup-container2.show {
+  opacity: 1;
+}
+
+#holders-svg-button1 svg,
+#holders-svg-button2 svg {
+  scale: 1.5;
+  height: 24px;
+  cursor: pointer !important;
+}
+
+.svgBtn-disabled#holders-svg-button1,
+.svgBtn-disabled#holders-svg-button2 {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+#holders-svg-button1,
+#holders-svg-button2 {
+  transition: opacity 0.1s ease-in;
+  pointer-events: auto;
+}
+
+#holders-svg-button1 svg path,
+#holders-svg-button2 svg path {
+  transition: ease 0.5s;
+}
+
+span.top-100-holders-title {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #b5b7da;
+}
+
+#holders-chartdiv1,
+#holders-chartdiv2 {
+  width: 100%;
+  height: 350px;
+}
+
+.holders-tooltip {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 11px;
+  border-radius: 10px;
+  font-size: 12px;
+  z-index: 1000;
+  margin-bottom: 20px;
+  margin-top: -67px;
+  margin-left: -70px;
+}
+
+.c-trades-table__td,
+.c-trades-table__th {
+  padding-left: 0px !important;
+}
+
+
+/************* HOLDERS SOL BALANCE ***********/
+
+[data-table-id="holders"] .c-grid-table__head,
+[data-table-id="holders"] .c-grid-table__tr {
+  grid-template-columns:
+    minmax(22%, 0.5fr) minmax(25%, 1fr) minmax(15%, 1fr) minmax(15%, 1fr) minmax(15%, 1fr) 50px !important;
+}
+
+span.holders-sol-balance {
+  color: #999;
+}
+
+.holders-usd-balance {
+    font-size: 12px;
+    color: #8D93B7;
+    margin-left: 5px;
+}
+
+#top-holders-container {
+  order: 2 !important;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0px;
+  display: flex;
+  height: 31px;
+}
+
+#top-holders-container.show {
+  opacity: 1;
+}
+
+/* holders chart button */
+.p-show__widget--table:has([data-table-id="holders"]) .u-mb-m {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+#holders-svg-button1 {
+  order: 2 !important;
+  aborder: 1px solid rgba(255, 255, 255, 0.15);
+  aborder-radius: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 2px;
+  display: flex;
+  height: 32px;
+}
+
+#holders-svg-button2 {
+  order: 3 !important;
+  aborder: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 2px;
+  display: flex;
+  height: 32px;
+}
+
+span#svg-buttons {
+  padding-left: 12px;
+  line-height: 32px;
+}
+
+#svg-holder-button {
+  padding: 6px;
+  padding-left: 10px;
+}
+
+
+/************** SOL PRICE & CHART *************/
+
+.font-sol {
+  font-size: 11px;
+  padding-right: 15px;
+  color: rgb(150, 150, 190);
+}
+
+.solChart {
+  width: 62px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.8s ease;
+}
+
+.solChart:hover {
+    filter: brightness(1.15);
+    transition: 0.4s ease;
+}
+
+
+/**************** TOOLTIP POPUP ***************/
+
+.remastered-tooltip {
+  display: none;
+  position: absolute;
+  background-color: #111;
+  box-shadow: 0 0 4px 0px #111;
+  color: #fff;
+  padding: 11px;
+  border-radius: 10px;
+  font-size: 12px;
+  z-index: 1000;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: -70px;
+  opacity: 0;
+
+  animation-name: supply_bundle-fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.1s;
+}
