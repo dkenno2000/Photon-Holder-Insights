@@ -15,8 +15,8 @@ Decided to open source all my previous Chrome extensions. Use the code anyway yo
 
 <h2 id="releases">💾 Releases</h2>
 
-- 🌐 <a href="https://chromewebstore.google.com/detail/photon-holder-insights-wa/dcpmnpnodogloianchnkecgllmkdhhgn">Download from Chrome Web Store</a>
-- 💾 <a href="https://github.com/dkenno2000/Windows-Alerts-for-Photon/releases/download/Photon/alerts_for_photon-v1.1.zip">Download the latest release from Github</a>
+- <a href="https://chromewebstore.google.com/detail/photon-holder-insights-wa/dcpmnpnodogloianchnkecgllmkdhhgn">Download from Chrome Web Store</a>
+- <a href="https://github.com/dkenno2000/Windows-Alerts-for-Photon/releases/download/Photon/alerts_for_photon-v1.1.zip">Download the latest release from Github</a>
 
 <h2 id="features">🚩 Key Features</h2>
 
@@ -35,7 +35,7 @@ Uses amCharts 5 library for drawing chart data.
   import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 ```
 
-Browser must be allowed to show notifications in the OS settings. On my system, Windows had this disabled by default.
+I built this extension, because Photon for the longest time didn't show holder's wallet balances. This fetches each top 100 holder's wallet SOL balance with drpc.org and displays it next to their wallet address.
 
 <h2 id="started">⚙️ Getting started</h2>
 <h3>Prerequisites</h3>
