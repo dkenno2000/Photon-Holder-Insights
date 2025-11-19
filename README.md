@@ -15,8 +15,8 @@ Decided to open source all my previous Chrome extensions. Use the code anyway yo
 
 <h2 id="releases">💾 Releases</h2>
 
-- <p><a href="https://chromewebstore.google.com/detail/photon-holder-insights-wa/dcpmnpnodogloianchnkecgllmkdhhgn">Download from Chrome Web Store</a></p>
-- <a href="https://github.com/dkenno2000/Windows-Alerts-for-Photon/releases/download/Photon/alerts_for_photon-v1.1.zip">Download the latest release from Github</a>
+- 🌐 <a href="https://chromewebstore.google.com/detail/photon-holder-insights-wa/dcpmnpnodogloianchnkecgllmkdhhgn">Download from Chrome Web Store</a>
+- 💾 <a href="https://github.com/dkenno2000/Windows-Alerts-for-Photon/releases/download/Photon/alerts_for_photon-v1.1.zip">Download the latest release from Github</a>
 
 <h2 id="features">🚩 Key Features</h2>
 
